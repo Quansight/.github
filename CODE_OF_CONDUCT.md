@@ -119,10 +119,6 @@ Quansight is committed to promptly addressing any reported issues. If you have e
 
 Reports are sent to the Quansight Code of Conduct Enforcement Team (see below).
 
-<!-- If you are using TypeForm, leave the following text in place -->
-
-You can view the Privacy Policy and Terms of Service for TypeForm at [*https://terms.typeform.com/to/fJAmVc*](https://terms.typeform.com/to/fJAmVc).
-
 #### Person(s) Responsible for Resolving Complaints
 
 All reports of breaches of the code of conduct will be investigated and handled by the **Quansight Code of Conduct Enforcement Team**.
