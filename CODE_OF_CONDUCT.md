@@ -153,7 +153,8 @@ You can reach the entire Code of Conduct Enforcement Team by emailing [***EMAIL 
 
 In the event of any conflict of interest, the team member will immediately notify the Quansight Code of Conduct Enforcement Team and recuse themselves if necessary.
 
-If you are concerned about making a report that will be read by any of the above individuals, please reach out to [Leah Silen](mailto:leah@numfocus.org), Executive Director of NumFOCUS (https://numfocus.org/code-of-conduct#persons-responsible). [MAY WANT TO INSERT LANGUAGE HERE DESCRIBING THE RELATIONSHIP BETWEEN THE PROJECT AND NUMFOCUS. E.G. "Quansight IS AN AFFILIATED PROJECT OF NUMFOCUS."]
+If you are concerned about making a report that will be read by any of the
+above individuals, please reach out to [ADD ENFORCEMENT DETAILS HERE]
 
 #### What to Include in a Report
 
