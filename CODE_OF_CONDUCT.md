@@ -72,7 +72,7 @@ Be an active bystander and inform Quansight if you notice a dangerous situation 
 
 ### a. How to Submit a Report
 
-	In the context of this Code of Conduct, a “report” means reporting any incidents 
+In the context of this Code of Conduct, a “report” means reporting any incidents 
 of Code of Conduct violations either verbally or in writing. 
 
 Quansight is committed to promptly addressing any reported issues. If you have experienced or witnessed behavior that violates the Quansight Repository Code of Conduct, please report it in a timely manner. 
