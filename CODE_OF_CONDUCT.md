@@ -14,13 +14,11 @@
 
 ## 1. Quansight Repository Code of Conduct Introduction
 
-This Code of Conduct aims to empower all users, maintainers, and contributors of Quansight public repositories and open source projects to facilitate healthy and constructive community behavior. It outlines expectations for participation in Quansight-managed public repositories, as well as steps for reporting unacceptable behavior. 
+This Code of Conduct aims to empower all users, maintainers, and contributors of public repositories and open source projects managed by Quansight LLC or Quansight Labs to facilitate healthy and constructive community behavior. It outlines expectations for participation in Quansight-managed public repositories, as well as steps for reporting unacceptable behavior. 
 
-This code of conduct applies to all repos and communities for Quansight-managed open source projects regardless of whether or not the repository explicitly calls out its use of this code. The code also applies in public spaces when an individual is representing a project or its community. Examples include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+This Code of Conduct applies to all repositories and communities for Quansight-managed open source projects regardless of whether or not the repository explicitly calls out its use of this code. The code also applies in public spaces when an individual is representing a project or its community. Examples include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
 
-We are committed to providing a welcoming and inspiring community for all. Anyone claiming affiliation with Quansight public repositories is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces and public repositories of Quansight on platforms including Github, Gitlab, and Bitbucket. People violating this code of conduct may be banned from the community. 
-
-The Quansight Labs Co-Directors can be contacted by emailing `coc@quansight.com`. All reports will be reviewed and will be kept confidential.
+We are committed to providing a welcoming and inspiring community for all. Anyone claiming affiliation with Quansight public repositories is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces and public repositories of Quansight on platforms (including Github). People violating this Code of Conduct may be banned from the community.
 
 ### a. Expected Behavior
 
@@ -98,7 +96,7 @@ Our ability to address any code of conduct breaches in a timely and effective ma
 
   * Your preferred medium of contact. If you wish to remain anonymous, your information will not be shared beyond the person receiving the initial report.
   * The approximate time and location of the incident (please be as specific as possible)
-  *  Identifying information (e.g. name, nickname, screen name, physical description) of the individual whose behavior is being reported
+  * Identifying information (e.g. name, nickname, screen name, physical description) of the individual whose behavior is being reported
   * Description of the behavior (if reporting harassing language, please be specific about the words used), your account of what happened, and any available supporting records (e.g. email, GitHub issue, screenshots, etc.)
   * Description of the circumstances/context surrounding the incident
   * Let us know if the incident is ongoing, and/or if this is part of an ongoing pattern of behavior
@@ -113,7 +111,7 @@ The Quansight CoC Committee will make all efforts to review the incident within 
 * Whether this is an ongoing situation, or if there is a threat to anyone’s physical safety
 * What happened
 * Whether this event constitutes a code of conduct violation
-* Who the bad actor was if any
+* Who the bad actors were, if any
 
 If the incident took place in person or within the online channels of a Quansight platform, the Quansight CoC Committee will reach out to the relevant parties as necessary to follow up on the incident.
 
@@ -159,4 +157,14 @@ Our policy is to make sure that everyone aware of the initial incident is also m
 
 ## 3. License
 
-This code of conduct has been adapted from numerous sources, including TODO Group Code of Conduct template, Django Code of Conduct, Contributor Covenant, Ubuntu Code of Conduct v2.0, NumFOCUS Code of Conduct, Vox Media Code of Conduct, the Bokeh Code of Conduct, the SciPy Code of Conduct, the Carpentries Code of Conduct, and the NeurIPS Code of Conduct.
+This code of conduct has been adapted from numerous sources, including:
++ [the TODO Group Code of Conduct template](https://todogroup.org/blog/open-code-of-conduct/)
++ [the Django Code of Conduct](https://www.djangoproject.com/conduct/)
++ [the Contributor Covenant](https://www.contributor-covenant.org/)
++ [the Ubuntu Code of Conduct v2.0](https://ubuntu.com/community/code-of-conduct)
++ [the NumFOCUS Code of Conduct](https://numfocus.org/code-of-conduct)
++ [the Vox Media Code of Conduct](https://code-of-conduct.voxmedia.com/)
++ [the Bokeh Code of Conduct](https://github.com/bokeh/bokeh/blob/branch-2.3/CODE_OF_CONDUCT.md)
++ [the SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
++ [the Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
++ [the NeurIPS Code of Conduct](https://neurips.cc/public/CodeOfConduct)
