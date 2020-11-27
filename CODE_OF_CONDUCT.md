@@ -1,20 +1,27 @@
 # Quansight Repository Code of Conduct
 
 1. Introduction
+
     a. Expected Behavior
+    
     b. Unacceptable Behavior
 2. Incident Reporting Guidelines
+
     a. How to Submit an Incident Report
+    
     b. Conflicts of Interest
+    
     c. What to Include in a Report
+    
     d. Procedures after Filing a Report
+    
 3. License
 
 -------
 
 ## 1. Introduction
 
-The aim of this Code of Conduct is to empower all participants in Quansight-managed public repositories to facilitate healthy and constructive community behavior. Those participants may be users, maintainers, or contributors to open-source projects managed by Quansight LLC or Quansight Labs. This Code of Conduct outlines expected behaviors as well as steps for reporting incidents of unacceptable behavior.
+The aim of this Code of Conduct is to empower all participants at Quansight-organized in-person events in Quansight-managed public repositories to facilitate healthy and constructive community behavior. Those participants may be users, maintainers, or contributors to open-source projects managed by Quansight LLC or Quansight Labs. This Code of Conduct outlines expected behaviors as well as steps for reporting incidents of unacceptable behavior.
 
 This Code of Conduct applies to all repositories and communities for Quansight-managed open-source projects regardless of whether or not the repository explicitly includes this document. The Code also applies in public spaces when an individual represents a project or its community. Examples include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or in-person event. What constitutes representing a project may be further defined and clarified by project maintainers.
 
@@ -30,15 +37,13 @@ The COC committee consists of (at least) three members of Quansight staff. The t
 
 You may alternatively choose to contact one of the Quansight Labs Co-Directors with questions regarding this COC:
 
-+ Ralf Gommers
-+ Tania Allard
++ Ralf Gommers (`rgommers@quansight.com`)
++ Tania Allard (`tallard@quansight.com`)
 
 ### a. Expected Behavior
 
 + Be empathetic, welcoming, friendly, patient, considerate, and mindful.
     + Everyone deserves to be treated with kindness and empathy.
-+ Consider the consequences of any decision you make on users & colleagues.
-    + Your work will be used by others and you will depend on the work of others
 + Remember, you might not be communicating in someone else’s primary language.
     + If a communication is unclear, ask for clarification respectfully.
 + Offer to help if you see someone struggling or otherwise in need of assistance.
@@ -54,7 +59,7 @@ You may alternatively choose to contact one of the Quansight Labs Co-Directors w
     + Remember, with written communication, opportunities for misunderstanding are much greater.
     + Use sarcasm sparingly.
     + Make judicious use of emojis to aid in clear online communication (tone is difficult to decipher online).
-+ Seek to understand the other viewpoints and resolve differences constructively.
++ Seek to understand other viewpoints and resolve differences constructively.
     + Different people have different perspectives on issues.
     + Our community consists of people from widely varying backgrounds.
     + Disagreements, both social and technical, are useful learning opportunities.
@@ -103,9 +108,8 @@ COC committee. You can alternatively seek confidential advice from one of the
 Quansight Labs Co-Directors.
 
 In the event of an egregious incident, please report the matter formally—as
-described below—in a timely manner to the entire COC committee (`coc@quansight.com`),
-to any individual member of the COC committee, or to one of the Quansight
-Labs Co-Directors (listed above).
+described below—in a timely manner to the entire COC committee (`coc@quansight.com`)
+or to one of the Quansight Labs Co-Directors (as listed above).
 
 **All reports will be kept confidential.**
 
@@ -115,8 +119,8 @@ outcomes of the process are detailed below.
 ### a. How to Submit an Incident Report
 
 In the context of this Code of Conduct, a "report" means a written notification
-(as described below) of any Code of Conduct incident sent to any member of the COC
-committee or a Quansight Labs Co-Director.
+(as described below) of any Code of Conduct incident sent to the COC committee or 
+to a Quansight Labs Co-Director.
 
 Quansight is committed to promptly addressing any incident reports in a timely manner.
 
@@ -124,7 +128,7 @@ Quansight is committed to promptly addressing any incident reports in a timely m
 
 In the event of a conflict of interest with any COC committee member, the relevant member will recuse themselves from handling the report. Involved parties are never part of the review process.
 
-If you are concerned about submitting a report that will reach any specific individual, please contact one of the COC committee members or Quansight Labs Co-Directors directly.
+If you are concerned about submitting a report that will reach any specific individual, please contact one of the Quansight Labs Co-Directors directly.
 
 ### c. What to Include in a Report
 
@@ -137,7 +141,7 @@ Our ability to address any Code of Conduct incident in a timely and effective ma
 + Identifying information of all individuals actively involved in the COC incident.
     + This may include names, nicknames/pseudonyms, usernames/screen-names, physical
   descriptions, etc.
-+ Witnesses (if any)
++ Witnesses (if any, in case of an in-person incident)
     + Provide names and contact details if available
 + Description of the circumstances/context surrounding the incident (e.g., at a conference, in a private meeting, during an online chat, etc.)
 + Description of the behavior
@@ -153,7 +157,7 @@ Our ability to address any Code of Conduct incident in a timely and effective ma
 
 **Reviewing the Report**
 
-The Quansight COC committee will acknowledge receipt of the incident report within one or two business days. They will make all efforts to review the incident report within a week to determine:
+The Quansight COC committee will acknowledge receipt of the incident report within two business days. They will make all efforts to review the incident report within a week to determine:
 
 * whether this is an ongoing situation;
 * whether there is a threat to anyone’s physical safety;
@@ -162,8 +166,6 @@ The Quansight COC committee will acknowledge receipt of the incident report with
 * who the bad actors were, if any.
 
 All reports will be reviewed and will result in a response necessary and appropriate to the circumstances. Where additional perspectives are needed, the team may seek insight from others with relevant expertise or experience. The confidentiality of the incident's reporter will be kept at all times.
-
-Anyone asked to stop unacceptable behavior is expected to comply immediately. If any individual engages in unacceptable behavior again, the COC committee may reccommend any action they deem appropriate (as enumerated below).
 
 **Contacting the Person(s) Reported**
 
@@ -175,7 +177,7 @@ Our policy is to make sure that everyone aware of the initial incident is also m
 
 **Response and Potential Consequences**
 
-The Quansight COC Committee will reccommend a response to the Quansight Labs Co-Directors (or higher up the Quansight leadership team if appropriate).
+The Quansight COC Committee will recommend a response to the Quansight Labs Co-Directors (or higher up the Quansight leadership team if appropriate).
 
 Potential consequences (for reportees) of Quansight Code of Conduct incidents include:
 
@@ -191,7 +193,7 @@ Potential consequences (for reportees) of Quansight Code of Conduct incidents in
 * Any other response that Quansight deems necessary and appropriate to the situation
 * At Quansight events, if a participant engages in behavior that violates this Code of Conduct, the organizers and staff may take any action they deem appropriate
 
-At an in-person company event, potential consequences for Code of Conduct incidents include:
+At an in-person Quansight-organized event, potential consequences for Code of Conduct incidents include:
 
 * Warning the offender to cease their behavior and that any further incidents will result in sanctions
 * Requiring that the offender avoid any interaction with—and physical proximity to—any relevant person(s) (e.g., in the case of harrassment) for the remainder of the event
