@@ -15,7 +15,7 @@
     
     d. Procedures after Filing a Report
     
-3. License
+3. Sources
 
 -------
 
@@ -27,13 +27,14 @@ This Code of Conduct applies to all repositories and communities for Quansight-m
 
 Quansight is committed to providing a welcoming and inspiring community for all. Anyone claiming affiliation with Quansight public repositories is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces and public repositories of Quansight on all platforms (including Github). Possible consequences for breaching this Code of Conduct are listed below.
 
-For any queries regarding this Code of Conduct, please contact any member of the Code of Conduct committee. The Code of Conduct committee (for 2021) is:
+If you have questions about interpreting this Code of Conduct, please reach out to any member of the Code of Conduct committee. The Code of Conduct committee (for 2021) is:
 
-+ Name 1
-+ Name 2
-+ Name 3
++ Dhavide Aruliah (`daruliah@quansight.com`)
++ Aaron Meurer (`ameurer@quansight.com`)
++ Kim Pevey (`kpevey@quansight.com`)
++ Matti Picus (`mpicus@quansight.com`)
 
-The COC committee consists of (at least) three members of Quansight staff. The term of the membership is one calendar year with the option for renewal if desired (the COC committee may stagger departures to preserve committee memory)
+The COC committee consists of (at least) three members of Quansight staff. The term of the membership is one calendar year with the option for renewal if desired (the COC committee may stagger departures to preserve committee memory).
 
 You may alternatively choose to contact one of the Quansight Labs Co-Directors with questions regarding this COC:
 
@@ -58,7 +59,7 @@ You may alternatively choose to contact one of the Quansight Labs Co-Directors w
 + Be polite and friendly in all forms of communication.
     + Remember, with written communication, opportunities for misunderstanding are much greater.
     + Use sarcasm sparingly.
-    + Make judicious use of emojis to aid in clear online communication (tone is difficult to decipher online).
+    + Consider using extratextual indicators (e.g., emojis) to ensure that tone is clearly communicated online.
 + Seek to understand other viewpoints and resolve differences constructively.
     + Different people have different perspectives on issues.
     + Our community consists of people from widely varying backgrounds.
@@ -202,11 +203,11 @@ At an in-person Quansight-organized event, potential consequences for Code of Co
 * Banning the person from future events (either indefinitely or for a certain time period)
 * Any other response that Quansight deems necessary and appropriate to the situation
 
-No one espousing views or values contrary to the standards of our Code of Conduct will be permitted to hold any position representing Quansight (volunteer positions included). Quansight has the right and responsibility to remove, edit, or reject comments, commits, code, edits, and other online contributions that are not aligned with this Code of Conduct.
+Individuals consistently engaging in behaviors contrary to the standards of our Code of Conduct will not be permitted to hold any position representing Quansight (volunteer positions included). Quansight has the right and responsibility to remove, edit, or reject comments, commits, code, edits, and other online contributions that are not aligned with this Code of Conduct.
 
-## 3. License
+## 3. Sources
 
-This code of conduct has been adapted from numerous sources, including:
+This Code of Conduct has been adapted from numerous sources, including:
 + [the TODO Group Code of Conduct template](https://todogroup.org/blog/open-code-of-conduct/)
 + [the Django Code of Conduct](https://www.djangoproject.com/conduct/)
 + [the Contributor Covenant](https://www.contributor-covenant.org/)
