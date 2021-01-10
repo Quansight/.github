@@ -21,22 +21,44 @@
 
 ## 1. Introduction
 
-The aim of this Code of Conduct is to empower all participants at Quansight-organized in-person events in Quansight-managed public repositories to facilitate healthy and constructive community behavior. Those participants may be users, maintainers, or contributors to open-source projects managed by Quansight LLC or Quansight Labs. This Code of Conduct outlines expected behaviors as well as steps for reporting incidents of unacceptable behavior.
+The aim of this Code of Conduct is to empower all participants at
+Quansight-organized in-person events in Quansight-managed public repositories
+to facilitate healthy and constructive community behavior. Those participants
+may be users, maintainers, or contributors to open-source projects managed by
+Quansight LLC or Quansight Labs. This Code of Conduct outlines expected
+behaviors as well as steps for reporting incidents of unacceptable behavior.
 
-This Code of Conduct applies to all repositories and communities for Quansight-managed open-source projects regardless of whether or not the repository explicitly includes this document. The Code also applies in public spaces when an individual represents a project or its community. Examples include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or in-person event. What constitutes representing a project may be further defined and clarified by project maintainers.
+This Code of Conduct applies to all repositories and communities for
+Quansight-managed open-source projects regardless of whether or not the
+repository explicitly includes this document. The Code also applies in public
+spaces when an individual represents a project or its community. Examples
+include using an official project e-mail address, posting via an official
+social media account, or acting as an appointed representative at an online or
+in-person event. What constitutes representing a project may be further defined
+and clarified by project maintainers.
 
-Quansight is committed to providing a welcoming and inspiring community for all. Anyone claiming affiliation with Quansight public repositories is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces and public repositories of Quansight on all platforms (including Github). Possible consequences for breaching this Code of Conduct are listed below.
+Quansight is committed to providing a welcoming and inspiring community for
+all. Anyone claiming affiliation with Quansight public repositories is required
+to conform to the Code of Conduct. This Code of Conduct applies to all spaces
+and public repositories of Quansight on all platforms (including Github).
+Possible consequences for breaching this Code of Conduct are listed below.
 
-If you have questions about interpreting this Code of Conduct, please reach out to any member of the Code of Conduct committee. The Code of Conduct committee (for 2021) is:
+If you have questions about interpreting this Code of Conduct, please reach out
+to any member of the Code of Conduct committee. The Code of Conduct committee
+(for 2021) is:
 
 + Dhavide Aruliah (`daruliah@quansight.com`)
 + Aaron Meurer (`ameurer@quansight.com`)
 + Kim Pevey (`kpevey@quansight.com`)
 + Matti Picus (`mpicus@quansight.com`)
 
-The COC committee consists of (at least) three members of Quansight staff. The term of the membership is one calendar year with the option for renewal if desired (the COC committee may stagger departures to preserve committee memory).
+The COC committee consists of (at least) three members of Quansight staff. The
+term of the membership is one calendar year with the option for renewal if
+desired (the COC committee may stagger departures to preserve committee
+memory).
 
-You may alternatively choose to contact one of the Quansight Labs Co-Directors with questions regarding this COC:
+You may alternatively choose to contact one of the Quansight Labs Co-Directors
+with questions regarding this COC:
 
 + Ralf Gommers (`rgommers@quansight.com`)
 + Tania Allard (`tallard@quansight.com`)
@@ -59,7 +81,8 @@ You may alternatively choose to contact one of the Quansight Labs Co-Directors w
 + Be polite and friendly in all forms of communication.
     + Remember, with written communication, opportunities for misunderstanding are much greater.
     + Use sarcasm sparingly.
-    + Consider using extratextual indicators (e.g., emojis) to ensure that tone is clearly communicated online.
+    + Consider using extratextual indicators (e.g., emojis) to ensure that tone
+      is clearly communicated online.
 + Seek to understand other viewpoints and resolve differences constructively.
     + Different people have different perspectives on issues.
     + Our community consists of people from widely varying backgrounds.
@@ -68,14 +91,24 @@ You may alternatively choose to contact one of the Quansight Labs Co-Directors w
 
 ### b. Unacceptable Behavior
 
-Do not insult or put down other members of the community. Do not tolerate behavior that is disrespectful to anyone or that excludes, intimidates, or causes discomfort to others. Do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
+Do not insult or put down other members of the community. Do not tolerate
+behavior that is disrespectful to anyone or that excludes, intimidates, or
+causes discomfort to others. Do not tolerate discrimination or harassment based
+on characteristics that include, but are not limited to, gender identity and
+expression, sexual orientation, disability, physical appearance, body size,
+citizenship, nationality, ethnic or social origin, pregnancy, familial status,
+veteran status, genetic information, religion or belief (or lack thereof),
+membership of a national minority, property, age, education, socio-economic
+status, technical choices, and experience level.
 
 Behaviors that we consider harassment and exclusionary include but are not limited to:
 
 * Violent threats or language directed against another person
 * Posting sexually explicit or violent material
-* Posting (or threatening to post) someone else's personally identifying information ("doxing")
-* Sharing private content, such as emails sent privately or non-publicly, or direct message history, without the sender’s consent
+* Posting (or threatening to post) someone else's personally identifying
+  information ("doxing")
+* Sharing private content, such as emails sent privately or non-publicly, or
+  direct message history, without the sender’s consent
 * Personal insults, especially those using racist or sexist terms
 * Unwelcome sexual attention
 * Public or private harassment
@@ -83,12 +116,19 @@ Behaviors that we consider harassment and exclusionary include but are not limit
 * Excessive profanity (please avoid curse words; people differ greatly in their sensitivity to swearing)
 * Sexist, racist, or otherwise discriminatory jokes and language
 * Trolling or insulting and derogatory comments
-* Comments which have the effect of excluding people on the basis of membership in a specific group, including the level of experience, gender, gender identity and expression, sexual orientation, disability, neurotype, personal appearance, body size, race, ethnicity, age, religion, or nationality
-* Persistent unwanted interaction with someone (e.g., messaging, conversation, photography, or recording) after being explicitly asked to stop
+* Comments which have the effect of excluding people on the basis of membership
+  in a specific group, including the level of experience, gender, gender
+  identity and expression, sexual orientation, disability, neurotype, personal
+  appearance, body size, race, ethnicity, age, religion, or nationality
+* Persistent unwanted interaction with someone (e.g., messaging, conversation,
+  photography, or recording) after being explicitly asked to stop
 * Other unethical or unprofessional conduct
 * Advocating for, or encouraging, any of the above behaviors
 
-This Code of Conduct is not exhaustive or complete. It serves to capture our common understanding of a productive, collaborative environment. We expect our community members to follow the spirit of the Code of Conduct as much as possible.
+This Code of Conduct is not exhaustive or complete. It serves to capture our
+common understanding of a productive, collaborative environment. We expect our
+community members to follow the spirit of the Code of Conduct as much as
+possible.
 
 ## 2. Incident Reporting Guidelines
 
@@ -127,13 +167,19 @@ Quansight is committed to promptly addressing any incident reports in a timely m
 
 ### b. Conflicts of Interest
 
-In the event of a conflict of interest with any COC committee member, the relevant member will recuse themselves from handling the report. Involved parties are never part of the review process.
+In the event of a conflict of interest with any COC committee member, the
+relevant member will recuse themselves from handling the report. Involved
+parties are never part of the review process.
 
-If you are concerned about submitting a report that will reach any specific individual, please contact one of the Quansight Labs Co-Directors directly.
+If you are concerned about submitting a report that will reach any specific
+individual, please contact one of the Quansight Labs Co-Directors directly.
 
 ### c. What to Include in a Report
 
-Our ability to address any Code of Conduct incident in a timely and effective manner is critically dependent on the amount & the precision of all information provided. Please include as much of the following as possible in an incident report:
+Our ability to address any Code of Conduct incident in a timely and effective
+manner is critically dependent on the amount & the precision of all information
+provided. Please include as much of the following as possible in an incident
+report:
 
 + Your contact information (including your preferred medium of contact).
     + If you wish to remain anonymous, your personal contact details will not be shared beyond
@@ -144,7 +190,8 @@ Our ability to address any Code of Conduct incident in a timely and effective ma
   descriptions, etc.
 + Witnesses (if any, in case of an in-person incident)
     + Provide names and contact details if available
-+ Description of the circumstances/context surrounding the incident (e.g., at a conference, in a private meeting, during an online chat, etc.)
++ Description of the circumstances/context surrounding the incident (e.g., at a
+  conference, in a private meeting, during an online chat, etc.)
 + Description of the behavior
     + If reporting harassing language, be specific about the words used.
     + Provide a detailed account of what happened.
@@ -158,7 +205,9 @@ Our ability to address any Code of Conduct incident in a timely and effective ma
 
 **Reviewing the Report**
 
-The Quansight COC committee will acknowledge receipt of the incident report within two business days. They will make all efforts to review the incident report within a week to determine:
+The Quansight COC committee will acknowledge receipt of the incident report
+within two business days. They will make all efforts to review the incident
+report within a week to determine:
 
 * whether this is an ongoing situation;
 * whether there is a threat to anyone’s physical safety;
@@ -166,44 +215,77 @@ The Quansight COC committee will acknowledge receipt of the incident report with
 * whether this incident does constitute an infraction of the Code of Conduct; and
 * who the bad actors were, if any.
 
-All reports will be reviewed and will result in a response necessary and appropriate to the circumstances. Where additional perspectives are needed, the team may seek insight from others with relevant expertise or experience. The confidentiality of the incident's reporter will be kept at all times.
+All reports will be reviewed and will result in a response necessary and
+appropriate to the circumstances. Where additional perspectives are needed, the
+team may seek insight from others with relevant expertise or experience. The
+confidentiality of the incident's reporter will be kept at all times.
 
 **Contacting the Person(s) Reported**
 
-After the Quansight COC Committee has had time to review and discuss the report, any persons responsible for the incident in the report (hereafter called reportees) will be contacted. Reportees will be informed of what has been reported about them & they will be asked to provide their account of what happened. The incident reporter will not normally be consulted about the proposed resolution of the incident, except insofar as needed to understand how to help them feel safe.
+After the Quansight COC Committee has had time to review and discuss the
+report, any persons responsible for the incident in the report (hereafter
+called reportees) will be contacted. Reportees will be informed of what has
+been reported about them & they will be asked to provide their account of what
+happened. The incident reporter will not normally be consulted about the
+proposed resolution of the incident, except insofar as needed to understand how
+to help them feel safe.
 
-We aim to respond within one week to the incident reporter with either a resolution or an explanation of why the situation remains unresolved. We will contact the reportee to let them know what actions will be taken as a result of the report if any.
+We aim to respond within one week to the incident reporter with either a
+resolution or an explanation of why the situation remains unresolved. We will
+contact the reportee to let them know what actions will be taken as a result of
+the report if any.
 
-Our policy is to make sure that everyone aware of the initial incident is also made aware that official action has been taken while still respecting the privacy of individuals. Quansight commits to maintaining the confidentiality of the reporter of an incident. Quansight may choose to make a public statement regarding the incident while maintaining the anonymity of those involved.
+Our policy is to make sure that everyone aware of the initial incident is also
+made aware that official action has been taken while still respecting the
+privacy of individuals. Quansight commits to maintaining the confidentiality of
+the reporter of an incident. Quansight may choose to make a public statement
+regarding the incident while maintaining the anonymity of those involved.
 
 **Response and Potential Consequences**
 
-The Quansight COC Committee will recommend a response to the Quansight Labs Co-Directors (or higher up the Quansight leadership team if appropriate).
+The Quansight COC Committee will recommend a response to the Quansight Labs
+Co-Directors (or higher up the Quansight leadership team if appropriate).
 
 Potential consequences (for reportees) of Quansight Code of Conduct incidents include:
 
 * Nothing (if it is determined that no breach occurred)
 * Private feedback or reprimand from Quansight to the reportee(s) involved
-* Warning the reportee to cease their behavior and that any further incident reports will result in sanctions
+* Warning the reportee to cease their behavior and that any further incident
+  reports will result in sanctions
 * A public announcement that an incident occurred
 * Mediation (only if both reporter(s) and reportee(s) agree)
-* A permanent or temporary ban from some or all Quansight spaces (mailing lists, GitHub repos, in-person events, etc.)
+* A permanent or temporary ban from some or all Quansight spaces (mailing
+  lists, GitHub repos, in-person events, etc.)
 * Assistance to the complainant with a report to other bodies (e.g., institutional offices or appropriate law enforcement agencies)
-* An imposed vacation or removal from Quansight employment/affiliation (for Quansight personnel/affiliates)
-* Publishing an account of the incident and calling for the resignation of the reportee(s) from their responsibilities (usually pursued when Quansight lacks formal authority: this may be appropriate if the person is an external event leader, if they refuse to recuse themselves from a conflict of interest, or similar)
+* An imposed vacation or removal from Quansight employment/affiliation (for
+  Quansight personnel/affiliates)
+* Publishing an account of the incident and calling for the resignation of the
+  reportee(s) from their responsibilities (usually pursued when Quansight lacks
+  formal authority: this may be appropriate if the person is an external event
+  leader, if they refuse to recuse themselves from a conflict of interest, or
+  similar)
 * Any other response that Quansight deems necessary and appropriate to the situation
-* At Quansight events, if a participant engages in behavior that violates this Code of Conduct, the organizers and staff may take any action they deem appropriate
+* At Quansight events, if a participant engages in behavior that violates this
+  Code of Conduct, the organizers and staff may take any action they deem
+  appropriate
 
-At an in-person Quansight-organized event, potential consequences for Code of Conduct incidents include:
+At an in-person Quansight-organized event, potential consequences for Code of
+Conduct incidents include:
 
 * Warning the offender to cease their behavior and that any further incidents will result in sanctions
-* Requiring that the offender avoid any interaction with—and physical proximity to—any relevant person(s) (e.g., in the case of harrassment) for the remainder of the event
+* Requiring that the offender avoid any interaction with—and physical proximity
+  to—any relevant person(s) (e.g., in the case of harrassment) for the
+  remainder of the event
 * Immediately ending all the offender's remaining event responsibilities and privileges
 * Expelling the offender from the event immediately and requiring that they do not return
 * Banning the person from future events (either indefinitely or for a certain time period)
 * Any other response that Quansight deems necessary and appropriate to the situation
 
-Individuals consistently engaging in behaviors contrary to the standards of our Code of Conduct will not be permitted to hold any position representing Quansight (volunteer positions included). Quansight has the right and responsibility to remove, edit, or reject comments, commits, code, edits, and other online contributions that are not aligned with this Code of Conduct.
+Individuals consistently engaging in behaviors contrary to the standards of our
+Code of Conduct will not be permitted to hold any position representing
+Quansight (volunteer positions included). Quansight has the right and
+responsibility to remove, edit, or reject comments, commits, code, edits, and
+other online contributions that are not aligned with this Code of Conduct.
 
 ## 3. Sources
 
