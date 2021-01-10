@@ -21,9 +21,10 @@
 
 ## 1. Introduction
 
-The aim of this Code of Conduct is to empower all participants at
-Quansight-organized in-person events in Quansight-managed public repositories
-to facilitate healthy and constructive community behavior. Those participants
+The aim of this Code of Conduct is to facilitate healthy and constructive
+community behavior by all participants at
+Quansight-organized in-person events and in Quansight-managed public
+repositories.  Those participants
 may be users, maintainers, or contributors to open-source projects managed by
 Quansight LLC or Quansight Labs. This Code of Conduct outlines expected
 behaviors as well as steps for reporting incidents of unacceptable behavior.
@@ -31,7 +32,9 @@ behaviors as well as steps for reporting incidents of unacceptable behavior.
 This Code of Conduct applies to all repositories and communities for
 Quansight-managed open-source projects regardless of whether or not the
 repository explicitly includes this document. The Code also applies in public
-spaces when an individual represents a project or its community. Examples
+spaces when an individual represents a project or its community. This Code of
+Conduct applies to all spaces and public repositories of Quansight on all
+platforms (including Github). Examples
 include using an official project e-mail address, posting via an official
 social media account, or acting as an appointed representative at an online or
 in-person event. What constitutes representing a project may be further defined
@@ -39,9 +42,11 @@ and clarified by project maintainers.
 
 Quansight is committed to providing a welcoming and inspiring community for
 all. Anyone claiming affiliation with Quansight public repositories is required
-to conform to the Code of Conduct. This Code of Conduct applies to all spaces
-and public repositories of Quansight on all platforms (including Github).
+to conform to the Code of Conduct. 
 Possible consequences for breaching this Code of Conduct are listed below.
+
+Incidents concerning Quansight employees may be refered to the Quansight HR
+staff.
 
 If you have questions about interpreting this Code of Conduct, please reach out
 to any member of the Code of Conduct committee. The Code of Conduct committee
@@ -257,14 +262,13 @@ Potential consequences (for reportees) of Quansight Code of Conduct incidents in
 * A permanent or temporary ban from some or all Quansight spaces (mailing
   lists, GitHub repos, in-person events, etc.)
 * Assistance to the complainant with a report to other bodies (e.g., institutional offices or appropriate law enforcement agencies)
-* An imposed vacation or removal from Quansight employment/affiliation (for
-  Quansight personnel/affiliates)
 * Publishing an account of the incident and calling for the resignation of the
   reportee(s) from their responsibilities (usually pursued when Quansight lacks
   formal authority: this may be appropriate if the person is an external event
   leader, if they refuse to recuse themselves from a conflict of interest, or
   similar)
 * Any other response that Quansight deems necessary and appropriate to the situation
+* Referral to the appropriate HR staff for Quansight employees.
 * At Quansight events, if a participant engages in behavior that violates this
   Code of Conduct, the organizers and staff may take any action they deem
   appropriate
