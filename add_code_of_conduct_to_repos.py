@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Make pull requests to Quansight Repos with CODE-OF-CONDUCT.md.
 
@@ -25,39 +26,45 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-The GitHub API code here was taken from doctr, whose license is reproduced below:
-
-The MIT License (MIT)
-
-Copyright (c) 2016 Aaron Meurer, Gil Forsyth
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
 """
-
+import os
 import json
 import datetime
 import time
 import webbrowser
 import argparse
+import tempfile
+import subprocess
+import shlex
 
 import requests
+
+# ========================= START GITHUB API STUFF ==========================
+
+
+# The GitHub API code here was taken from doctr, whose license is reproduced below:
+#
+# The MIT License (MIT)
+#
+# Copyright (c) 2016 Aaron Meurer, Gil Forsyth
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 
 def bold(text):
     return "\033[1m%s\033[0m" % text
@@ -226,22 +233,15 @@ def GitHub_get(url, params=None, *, token, headers=None):
     GitHub_raise_for_status(r)
     return r.json()
 
-def main():
-    parser = argparse.ArgumentParser(description='add code of conduct to Quansight repos')
+# ========================== END GITHUB API STUFF ===========================
 
-    parser.add_argument('-l', '--list-repos', action='store_true',
-                        help="""List open source repos that would be updated""")
-    parser.add_argument('--org', default='Quansight', help="""The org to work
-    on. The default is 'Quansight'.""")
+CLIENT_ID = '1cee0ea4bab32a58132b'
 
-    args = parser.parse_args()
-
-    token = GitHub_login(CLIENT_ID)
-
-    if args.list_repos:
-        repos = get_repos(token, args.org)
-        for r in repos:
-            print(args.org + '/' + r['name'])
+CODE_OF_CONDUCT = """\
+This repository is governed by the Quansight Repository Code of Conduct. It
+can be found here:
+https://github.com/Quansight/.github/blob/master/CODE_OF_CONDUCT.md.
+"""
 
 def get_repos(token, org):
     repos = []
@@ -251,12 +251,67 @@ def get_repos(token, org):
                        dict(type='public', per_page=100, page=i), token=token)
         if not res:
             break
-        repos += [r for r in res if not r['fork']]
+        repos += [r for r in res if not r['fork'] and not r['name'] == '.github']
         i += 1
 
     return repos
 
-CLIENT_ID = '1cee0ea4bab32a58132b'
+def main():
+    parser = argparse.ArgumentParser(description='add code of conduct to Quansight repos')
+
+    parser.add_argument('-l', '--list-repos', action='store_true',
+                        help="""List open source repos that would be updated""")
+    parser.add_argument('--org', default='Quansight', help="""The org to work
+    on. The default is 'Quansight'.""")
+    parser.add_argument('--repos', default=["ALL"], nargs='+', help="""The repos to update.
+    The default is 'ALL', which updates all public repos in the org.""")
+    parser.add_argument('--dry-run', default=True, help="""Don't actually push anything to GitHub""")
+    args = parser.parse_args()
+
+    token = GitHub_login(CLIENT_ID)
+
+    all_repos = get_repos(token, args.org)
+    if args.list_repos:
+        for r in all_repos:
+            print(args.org + '/' + r['name'])
+        return
+
+    if args.repos == ['ALL']:
+        repos = all_repos
+    else:
+        repos = []
+        for repo in args.repos:
+            for r in all_repos:
+                if r['name'].lower() == repo.lower():
+                    repos.append(r)
+                    break
+            else:
+                raise RuntimeError(f"Did not find repo {repo}")
+
+    for repo in repos:
+        add_coc(args.org, repo['name'], push=not args.dry_run)
+
+def run(cmd, *args, **kwargs):
+    kwargs.setdefault('check', True)
+    print(' '.join(map(shlex.quote, cmd)))
+    return subprocess.run(cmd, *args, **kwargs)
+
+def add_coc(org, repo, push=True):
+    print(f"Adding CODE_OF_CONDUCT.md to {org}/{repo}")
+    # with tempfile.TemporaryDirectory() as tmpdirname:
+    tmpdirname = tempfile.mkdtemp()
+    print("Cloning into", tmpdirname)
+    run(['git', 'clone', f'git@github.com:{org}/{repo}.git'],
+        cwd=tmpdirname)
+    clone = os.path.join(tmpdirname, repo)
+    run(['git', 'checkout', '-b', 'add-code-of-conduct'], cwd=clone)
+    with open(os.path.join(clone, 'CODE_OF_CONDUCT.md'), 'w') as f:
+        f.write(CODE_OF_CONDUCT)
+
+    run(['git', 'add', 'CODE_OF_CONDUCT.md'], cwd=clone)
+    run(['git', 'commit', '-m', 'Add CODE_OF_CONDUCT.md, linking to the Quansight Code of Conduct'], cwd=clone)
+    if push:
+        run(['git', 'push', 'origin', 'add-code-of-conduct'], cwd=clone)
 
 if __name__ == '__main__':
     main()
