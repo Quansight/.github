@@ -1,21 +1,15 @@
 # Quansight Repository Code of Conduct
 
-1. Introduction
-
-    a. Expected Behavior
-    
-    b. Unacceptable Behavior
-2. Incident Reporting Guidelines
-
-    a. How to Submit an Incident Report
-    
-    b. Conflicts of Interest
-    
-    c. What to Include in a Report
-    
-    d. Procedures after Filing a Report
-    
-3. Sources
+- [Quansight Repository Code of Conduct](#quansight-repository-code-of-conduct)
+  - [1. Introduction](#1-introduction)
+    - [a. Expected Behavior](#a-expected-behavior)
+    - [b. Unacceptable Behavior](#b-unacceptable-behavior)
+  - [2. Incident Reporting Guidelines](#2-incident-reporting-guidelines)
+    - [a. How to Submit an Incident Report](#a-how-to-submit-an-incident-report)
+    - [b. Conflicts of Interest](#b-conflicts-of-interest)
+    - [c. What to Include in a Report](#c-what-to-include-in-a-report)
+    - [d. Procedures after Filing a Report](#d-procedures-after-filing-a-report)
+  - [3. Sources](#3-sources)
 
 -------
 
@@ -42,10 +36,10 @@ and clarified by project maintainers.
 
 Quansight is committed to providing a welcoming and inspiring community for
 all. Anyone claiming affiliation with Quansight public repositories is required
-to conform to the Code of Conduct. 
+to conform to the Code of Conduct.
 Possible consequences for breaching this Code of Conduct are listed below.
 
-Incidents concerning Quansight employees may be refered to the Quansight HR
+Incidents concerning Quansight employees may be referred to the Quansight HR
 staff.
 
 If you have questions about interpreting this Code of Conduct, please reach out
