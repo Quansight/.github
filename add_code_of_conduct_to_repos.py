@@ -206,7 +206,7 @@ def get_headers(token):
     return {'Authorization': "token {}".format(token),
             "Accept": "application/vnd.github.v3+json"}
 
-def GitHub_post(data, url, *, token, headers=None):
+def GitHub_post(url, data, *, token, headers=None):
     """
     POST the data ``data`` to GitHub.
 
@@ -290,11 +290,15 @@ def main():
 
     for repo in repos:
         add_coc(args.org, repo['name'], push=not args.dry_run)
-
+        if not args.dry_run:
+            make_pr(args.org, repo['name'],
+                    default_branch=repo['default_branch'], token=token)
 def run(cmd, *args, **kwargs):
     kwargs.setdefault('check', True)
     print(' '.join(map(shlex.quote, cmd)))
     return subprocess.run(cmd, *args, **kwargs)
+
+BRANCH_NAME = 'add-code-of-conduct'
 
 def add_coc(org, repo, push=True):
     print(f"Adding CODE_OF_CONDUCT.md to {org}/{repo}")
@@ -304,14 +308,37 @@ def add_coc(org, repo, push=True):
     run(['git', 'clone', f'git@github.com:{org}/{repo}.git'],
         cwd=tmpdirname)
     clone = os.path.join(tmpdirname, repo)
-    run(['git', 'checkout', '-b', 'add-code-of-conduct'], cwd=clone)
+    run(['git', 'checkout', '-b', BRANCH_NAME], cwd=clone)
     with open(os.path.join(clone, 'CODE_OF_CONDUCT.md'), 'w') as f:
         f.write(CODE_OF_CONDUCT)
 
     run(['git', 'add', 'CODE_OF_CONDUCT.md'], cwd=clone)
     run(['git', 'commit', '-m', 'Add CODE_OF_CONDUCT.md, linking to the Quansight Code of Conduct'], cwd=clone)
     if push:
-        run(['git', 'push', 'origin', 'add-code-of-conduct'], cwd=clone)
+        run(['git', 'push', 'origin', BRANCH_NAME], cwd=clone)
+
+
+PR_TITLE = "Add CODE_OF_CONDUCT.md"
+
+PR_BODY = """\
+This adds CODE_OF_CONDUCT.md. The contents of this file point back to the
+actual Quansight Code of Conduct at
+https://github.com/Quansight/.github/blob/master/CODE_OF_CONDUCT.md.
+
+See https://github.com/Quansight/.github/issues/8 for more information.
+"""
+
+def make_pr(org, repo, *, default_branch, token):
+    data = dict(
+        head=BRANCH_NAME,
+        base=default_branch,
+        title=PR_TITLE,
+        body=PR_BODY,
+        maintainer_can_modify=True,
+    )
+
+    r = GitHub_post(f'https://api.github.com/repos/{org}/{repo}/pulls', data, token=token)
+    return r
 
 if __name__ == '__main__':
     main()
