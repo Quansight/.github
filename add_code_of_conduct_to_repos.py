@@ -265,7 +265,7 @@ def main():
     on. The default is 'Quansight'.""")
     parser.add_argument('--repos', default=["ALL"], nargs='+', help="""The repos to update.
     The default is 'ALL', which updates all public repos in the org.""")
-    parser.add_argument('--dry-run', default=True, help="""Don't actually push anything to GitHub""")
+    parser.add_argument('--dry-run', default=False, help="""Don't actually push anything to GitHub""")
     args = parser.parse_args()
 
     token = GitHub_login(CLIENT_ID)
