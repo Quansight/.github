@@ -39,7 +39,7 @@ all. Anyone claiming affiliation with Quansight public repositories is required
 to conform to the Code of Conduct.
 Possible consequences for breaching this Code of Conduct are listed below.
 
-Incidents concerning Quansight employees may be referred to the Quansight HR
+Incidents concerning Quansight employees may be referred to Quansight's HR
 staff.
 
 If you have questions about interpreting this Code of Conduct, please reach out
@@ -288,6 +288,7 @@ other online contributions that are not aligned with this Code of Conduct.
 ## 3. Sources
 
 This Code of Conduct has been adapted from numerous sources, including:
+
 + [the TODO Group Code of Conduct template](https://todogroup.org/blog/open-code-of-conduct/)
 + [the Django Code of Conduct](https://www.djangoproject.com/conduct/)
 + [the Contributor Covenant](https://www.contributor-covenant.org/)
