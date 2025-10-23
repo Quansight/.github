@@ -20,7 +20,7 @@ community behavior by all participants at
 Quansight-organized in-person events and in Quansight-managed public
 repositories.  Those participants
 may be users, maintainers, or contributors to open-source projects managed by
-Quansight LLC or Quansight Labs. This Code of Conduct outlines expected
+Quansight PBC. This Code of Conduct outlines expected
 behaviors as well as steps for reporting incidents of unacceptable behavior.
 
 This Code of Conduct applies to all repositories and communities for
@@ -28,7 +28,7 @@ Quansight-managed open-source projects regardless of whether or not the
 repository explicitly includes this document. The Code also applies in public
 spaces when an individual represents a project or its community. This Code of
 Conduct applies to all spaces and public repositories of Quansight on all
-platforms (including Github). Examples
+platforms (including GitHub). Examples
 include using an official project e-mail address, posting via an official
 social media account, or acting as an appointed representative at an online or
 in-person event. What constitutes representing a project may be further defined
@@ -43,8 +43,8 @@ Incidents concerning Quansight employees may be referred to Quansight's HR
 staff.
 
 If you have questions about interpreting this Code of Conduct, please reach out
-to any member of the Code of Conduct committee. The Code of Conduct committee
-(for 2021) is:
+to any member of the Code of Conduct committee. The current Code of Conduct
+committee is:
 
 + Dhavide Aruliah (`daruliah@quansight.com`)
 + Aaron Meurer (`ameurer@quansight.com`)
@@ -159,7 +159,7 @@ outcomes of the process are detailed below.
 ### a. How to Submit an Incident Report
 
 In the context of this Code of Conduct, a "report" means a written notification
-(as described below) of any Code of Conduct incident sent to the COC committee or 
+(as described below) of any Code of Conduct incident sent to the COC committee or
 to a Quansight Labs Co-Director.
 
 Quansight is committed to promptly addressing any incident reports in a timely manner.
