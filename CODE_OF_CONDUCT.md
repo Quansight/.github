@@ -20,7 +20,7 @@ community behavior by all participants at
 Quansight-organized in-person events and in Quansight-managed public
 repositories.  Those participants
 may be users, maintainers, or contributors to open-source projects managed by
-Quansight LLC or Quansight Labs. This Code of Conduct outlines expected
+Quansight PBC. This Code of Conduct outlines expected
 behaviors as well as steps for reporting incidents of unacceptable behavior.
 
 This Code of Conduct applies to all repositories and communities for
@@ -28,7 +28,7 @@ Quansight-managed open-source projects regardless of whether or not the
 repository explicitly includes this document. The Code also applies in public
 spaces when an individual represents a project or its community. This Code of
 Conduct applies to all spaces and public repositories of Quansight on all
-platforms (including Github). Examples
+platforms (including GitHub). Examples
 include using an official project e-mail address, posting via an official
 social media account, or acting as an appointed representative at an online or
 in-person event. What constitutes representing a project may be further defined
@@ -43,24 +43,23 @@ Incidents concerning Quansight employees may be referred to Quansight's HR
 staff.
 
 If you have questions about interpreting this Code of Conduct, please reach out
-to any member of the Code of Conduct committee. The Code of Conduct committee
-(for 2021) is:
+to any member of the Code of Conduct committee. The current Code of Conduct
+committee is:
 
-+ Dhavide Aruliah (`daruliah@quansight.com`)
-+ Aaron Meurer (`ameurer@quansight.com`)
-+ Kim Pevey (`kpevey@quansight.com`)
-+ Matti Picus (`mpicus@quansight.com`)
++ Jaime Rodríguez-Guerra (`jrodriguez at quansight.com`)
++ Pavithra Eswaramoorthy (`peswaramoorthy at quansight.com`)
++ Klaus Zimmermann (`kzimmermann at quansight.com`)
 
 The COC committee consists of (at least) three members of Quansight staff. The
 term of the membership is one calendar year with the option for renewal if
 desired (the COC committee may stagger departures to preserve committee
 memory).
 
-You may alternatively choose to contact one of the Quansight Labs Co-Directors
+You may alternatively choose to contact one of the Quansight Co-CEOs
 with questions regarding this COC:
 
-+ Ralf Gommers (`rgommers@quansight.com`)
-+ Tania Allard (`tallard@quansight.com`)
++ Ralf Gommers (`rgommers at quansight.com`)
++ Tania Allard (`tallard at quansight.com`)
 
 ### a. Expected Behavior
 
@@ -145,11 +144,11 @@ and respect; ideally, the offending person(s) should have the opportunity to
 correct the behavior and make amends. If you would prefer not to address the
 person(s) directly, please discuss the issue in confidence with a member of the
 COC committee. You can alternatively seek confidential advice from one of the
-Quansight Labs Co-Directors.
+Quansight Co-CEOs.
 
 In the event of an egregious incident, please report the matter formally—as
 described below—in a timely manner to the entire COC committee (`coc@quansight.com`)
-or to one of the Quansight Labs Co-Directors (as listed above).
+or to one of the Quansight Co-CEOs (as listed above).
 
 **All reports will be kept confidential.**
 
@@ -159,8 +158,8 @@ outcomes of the process are detailed below.
 ### a. How to Submit an Incident Report
 
 In the context of this Code of Conduct, a "report" means a written notification
-(as described below) of any Code of Conduct incident sent to the COC committee or 
-to a Quansight Labs Co-Director.
+(as described below) of any Code of Conduct incident sent to the COC committee or
+to a Quansight Co-CEO.
 
 Quansight is committed to promptly addressing any incident reports in a timely manner.
 
@@ -171,7 +170,7 @@ relevant member will recuse themselves from handling the report. Involved
 parties are never part of the review process.
 
 If you are concerned about submitting a report that will reach any specific
-individual, please contact one of the Quansight Labs Co-Directors directly.
+individual, please contact one of the Quansight Co-CEOs directly.
 
 ### c. What to Include in a Report
 
@@ -181,21 +180,21 @@ provided. Please include as much of the following as possible in an incident
 report:
 
 + Your contact information (including your preferred medium of contact).
-    + If you wish to remain anonymous, your personal contact details will not be shared beyond
+  + If you wish to remain anonymous, your personal contact details will not be shared beyond
       the person receiving the initial report.
 + Approximate time & location of the incident (be as specific as possible).
 + Identifying information of all individuals actively involved in the COC incident.
-    + This may include names, nicknames/pseudonyms, usernames/screen-names, physical
+  + This may include names, nicknames/pseudonyms, usernames/screen-names, physical
   descriptions, etc.
 + Witnesses (if any, in case of an in-person incident)
-    + Provide names and contact details if available
+  + Provide names and contact details if available
 + Description of the circumstances/context surrounding the incident (e.g., at a
   conference, in a private meeting, during an online chat, etc.)
 + Description of the behavior
-    + If reporting harassing language, be specific about the words used.
-    + Provide a detailed account of what happened.
-    + Provide any available supporting records (e.g. email, screenshots, links to public GitHub
-    issues, mailing list archives, or public chat logs, etc.)
+  + If reporting harassing language, be specific about the words used.
+  + Provide a detailed account of what happened.
+  + Provide any available supporting records (e.g. email, screenshots, links to public GitHub
+  issues, mailing list archives, or public chat logs, etc.)
 + State whether you believe this incident is ongoing and/or part of an ongoing pattern of
   behavior.
 + Any additional information that may be helpful.
@@ -242,8 +241,7 @@ regarding the incident while maintaining the anonymity of those involved.
 
 **Response and Potential Consequences**
 
-The Quansight COC Committee will recommend a response to the Quansight Labs
-Co-Directors (or higher up the Quansight leadership team if appropriate).
+The Quansight COC Committee will recommend a response to the Quansight leadership team.
 
 Potential consequences (for reportees) of Quansight Code of Conduct incidents include:
 
