@@ -46,10 +46,9 @@ If you have questions about interpreting this Code of Conduct, please reach out
 to any member of the Code of Conduct committee. The current Code of Conduct
 committee is:
 
-+ Dhavide Aruliah (`daruliah@quansight.com`)
-+ Aaron Meurer (`ameurer@quansight.com`)
-+ Kim Pevey (`kpevey@quansight.com`)
-+ Matti Picus (`mpicus@quansight.com`)
++ Jaime Rodríguez-Guerra (`jrodriguez at quansight.com`)
++ Pavithra Eswaramoorthy (`peswaramoorthy at quansight.com`)
++ Klaus Zimmermann (`kzimmermann at quansight.com`)
 
 The COC committee consists of (at least) three members of Quansight staff. The
 term of the membership is one calendar year with the option for renewal if
